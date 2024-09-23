@@ -12,37 +12,64 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(to bottom, #FFFFFF, #C8102E);
+            background: linear-gradient(to bottom, #FFFFFF, #F4C2C2);
             font-family: 'Arial', sans-serif;
-            color: white;
+            color: #C8102E;
             text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
         }
         h1 {
-            font-size: 6rem;
+            font-size: 4rem;
             cursor: pointer;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            color: #C8102E;
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-top: 20px;
+            color: #C8102E;
         }
         p {
-            font-size: 2rem;
+            font-size: 1.5rem;
             margin-top: 20px;
+            line-height: 1.6;
         }
         .subtitle {
             font-size: 1.2rem;
             margin-top: 10px;
             font-style: italic;
-            color: #ddd;
+            color: #C8102E;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            margin-top: 20px;
+        }
+        li {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        hr {
+            border: 1px solid #C8102E;
+            margin: 20px 0;
         }
     </style>
 </head>
 <body>
-  <title>Danish Teens</title>
-    <div>
-        <h1 onclick="window.open('https://twitter.com/intent/tweet?text=%23DanishTeensDiscord')">
+    <div class="container">
+        <h1 onclick="window.open('https://twitter.com/intent/tweet?text=%23JusticeForTable')">
             KOMMER SNART!
         </h1>
-      <subtitle>
-      Tryk på titlen
-      </subtitle>
         <h2>
             Hvad kommer snart?
         </h2>
@@ -56,9 +83,9 @@
         <ul>
             <li>En dansk Discord-server for teenagere mellem 13 og 17 år, der fungerer som et "online safespace" for danske unge; vi er for det meste online.</li>
             <li>Vi har også vores egen hjemmeside for at sikre, at du kan få alt at vide, som du behøver.</li>
-            <hr>
-            <li><b>Hvordan ved du, om du/dit barn er sikker i "Danish Teens"?</b> Vi har masser af regler, robotter og personale, der sørger for, at du/dit barn er sikkert 24/7.</li>
         </ul>
+        <hr>
+        <li><b>Hvordan ved du, om du/dit barn er sikker i "Danish Teens"?</b> Vi har masser af regler, robotter og personale, der sørger for, at du/dit barn er sikkert 24/7.</li>
     </div>
 </body>
 </html>
